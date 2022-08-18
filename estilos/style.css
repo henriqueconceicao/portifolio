@@ -13,6 +13,39 @@
     min-height: 100vh;
     background: black;
 }
+.bio{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.bio img{
+    width: 400px;
+    height:400px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+}
+.tot{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.tx{
+    border: solid 1px white;
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+    text-indent: 40px;
+}
 .conteiner{
     position: relative;
     display: flex;
@@ -90,6 +123,7 @@
     text-align: center;
     text-shadow: 1px 2px 5px rgb(104, 78, 78);
     border: 1px solid white;
+    border-radius: 10px;
 }
 a{
     color: white;
