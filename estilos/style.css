@@ -40,7 +40,7 @@
     overflow: hidden;
 }
 .tx{
-    border: solid 1px white;
+    margin: auto;
     width: 400px;
     height: 400px;
     text-align: justify;
@@ -117,6 +117,15 @@
     border-radius: 20px;
 }
 #texto{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 2px 5px rgb(104, 78, 78);
+    border: 1px solid white;
+    border-radius: 10px;   
+}
+#texto2{
     display: block;
     color: white;
     padding: 10px;
