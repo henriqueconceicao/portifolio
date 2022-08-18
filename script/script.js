@@ -41,4 +41,20 @@ function digitar(h2,frase2,intervalo){
 digitar(h2,frase2,intervalo);
 
 
+const abrir = document.querySelector('#contato');
+const fechar = document.querySelector('#close-modal');
+const modal = document.querySelector('#modal');
+const fade = document.querySelector('#fade');
+
+const toggleModal = () =>{
+    [modal,fade].forEach((el) => el.classList.toggle("hide"));
+    
+};
+
+[abrir,fechar,fade].forEach((el) => {
+    el.addEventListener("click", () => toggleModal());
+});
+
+
+
 
