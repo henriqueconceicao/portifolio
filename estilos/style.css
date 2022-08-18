@@ -117,6 +117,15 @@ button:hover{
 .titulo{
     text-align: center;
     padding: 20px;
+    display: block;
+}
+.titulo p {
+    color: white;
+    width: 200px;
+    margin: auto;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 13px;
 }
 .titulo h2{
     background: red;
